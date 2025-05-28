@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Aryan Singh | Portfolio</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet"/><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script></head>
+<body class="bg-gray-900 text-white font-sans">
+<!-- Navbar -->
+<nav class="bg-gray-900 border-b border-gray-700 fixed w-full z-50">
+<div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+<a class="text-2xl font-bold text-indigo-500" href="#">Aryan Singh</a>
+<div class="md:hidden">
+<button class="text-white focus:outline-none" id="menu-btn">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+<ul class="hidden md:flex space-x-6 text-white" id="nav-links">
+<li><a class="hover:text-indigo-400" href="#about">About</a></li>
+<li><a class="hover:text-indigo-400" href="#projects">Projects</a></li>
+<li><a class="hover:text-indigo-400" href="#contact">Contact</a></li>
+</ul>
+</div>
+<!-- Mobile menu -->
+<div class="md:hidden hidden px-4 pb-4" id="mobile-menu">
+<ul class="space-y-2 text-white">
+<li><a class="block hover:text-indigo-400" href="#about">About</a></li>
+<li><a class="block hover:text-indigo-400" href="#projects">Projects</a></li>
+<li><a class="block hover:text-indigo-400" href="#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="pt-32 pb-20 text-center px-4" id="hero">
+<div class="max-w-4xl mx-auto" data-aos="fade-up">
+<h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+      Hi, I'm <span class="text-indigo-500">Aryan Singh</span>
+</h1>
+<div class="flex justify-center mt-6" data-aos="fade-up">
+<img alt="Aryan Singh" class="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-500 shadow-lg" src="assets/images/aryan.jpg"/>
+</div>
+<p class="text-lg sm:text-xl mt-6"><span id="typed-text"></span></p>
+<div class="mt-6 flex justify-center gap-4 flex-wrap">
+<a class="bg-indigo-600 text-white px-5 py-2 rounded hover:bg-indigo-700 transition" href="#projects">
+        View My Work
+      </a>
+<a class="border border-indigo-500 text-indigo-500 px-5 py-2 rounded hover:bg-indigo-500 hover:text-white transition" href="#contact">
+        Contact Me
+      </a>
+
+<a class="border border-green-500 text-green-500 px-5 py-2 rounded hover:bg-green-500 hover:text-white transition" href="assets/resume/Aryan Singh PHP.pdf" download>
+  Download Resume
+</a>
+
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-20 px-4" data-aos="fade-right" id="about">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-3xl font-bold text-center text-indigo-400 mb-10">About Me</h2>
+<div class="space-y-4 text-base sm:text-lg text-gray-300">
+<p class="mb-4">
+            Hi, I’m <strong class="text-indigo-400">Aryan Singh</strong> — a full-stack dreamer, code-crafter, and digital problem solver based in Kolkata. With strong command over <strong class="text-indigo-400">PHP, Laravel, WordPress, and MySQL</strong>, I build websites that are not only visually engaging but also optimized for real-world performance.
+          </p>
+<p class="mb-4">
+            My journey into web development wasn’t linear — and I’m proud of that. I began in business development at <strong>NoBroker Technologies</strong>, where I honed my understanding of user needs and client expectations. That role sparked my deeper interest in tech, which led me to pivot into web development full-time.
+          </p>
+<p class="mb-4">
+            From crafting lead-generating <strong>WordPress pages</strong> to building dynamic <strong>Laravel applications</strong>, I’ve worn many hats — developer, designer, problem solver, and team collaborator. At <strong>Vercis Infotech</strong>, I built custom WordPress features and REST API integrations. Later, at <strong>IconicPages</strong>, I focused on backend development, database design, and clean UI with Blade templating.
+          </p>
+<p class="mb-4">
+            I hold a <strong>B.Tech in Computer Science</strong> (CGPA: 8.97) and a <strong>Diploma in Computer Science</strong> (79%). Currently, I’m pursuing my <strong>M.Tech</strong> at <strong>G H Raisoni College of Engineering &amp; Management, Pune</strong>.
+          </p>
+<p class="mb-4">
+            Beyond coding, I’m proud to serve as a member of <strong>Lions Club International</strong>, combining tech with purpose. I believe the best solutions are crafted at the intersection of creativity, logic, and empathy — and that’s exactly where I like to work.
+          </p>
+<p class="mt-6">
+<span class="text-indigo-400 font-semibold">Let’s connect and create something impactful.</span>
+</p>
+</div>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="py-20 px-4 bg-gray-800" data-aos="fade-up" id="projects">
+<div class="max-w-5xl mx-auto">
+<h2 class="text-3xl font-bold text-center text-indigo-400 mb-10">Projects</h2>
+<div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2">
+<div class="bg-gray-900 border border-gray-700 p-6 rounded-lg">
+<h3 class="text-xl font-semibold mb-2 text-indigo-400">📌 Custom Portfolio Website</h3>
+<p>Showcases a personal brand, skills, and contact form.</p>
+<ul class="list-disc ml-6 mt-2 text-gray-300 text-sm">
+<li>Animated hero</li>
+<li>Downloadable resume</li>
+<li>Responsive design</li>
+</ul>
+<p class="mt-2 text-sm text-indigo-300">🛠️ HTML, CSS, JS, AOS</p>
+</div>
+<div class="bg-gray-900 border border-gray-700 p-6 rounded-lg">
+<h3 class="text-xl font-semibold mb-2 text-indigo-400">🌐 WordPress Lead Pages</h3>
+<p>Optimized landing pages with CRM integration.</p>
+<ul class="list-disc ml-6 mt-2 text-gray-300 text-sm">
+<li>Custom pages</li>
+<li>SEO optimization</li>
+<li>CRM tools</li>
+</ul>
+<p class="mt-2 text-sm text-indigo-300">🛠️ WordPress, Elementor</p>
+</div>
+<div class="bg-gray-900 border border-gray-700 p-6 rounded-lg md:col-span-2">
+<h3 class="text-xl font-semibold mb-2 text-indigo-400">🛒 E-commerce Integration</h3>
+<p>Improved product listings and UX on Laravel store.</p>
+<ul class="list-disc ml-6 mt-2 text-gray-300 text-sm">
+<li>Interactive forms</li>
+<li>SEO metadata</li>
+<li>Blade templates</li>
+</ul>
+<p class="mt-2 text-sm text-indigo-300">🛠️ Laravel, MySQL</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-gray-900 text-white" data-aos="fade-up" id="contact">
+<div class="container mx-auto px-4 max-w-2xl flex justify-center items-center min-h-[300px]">
+<!-- Contact Info -->
+<div class="space-y-6 text-center">
+<h2 class="text-3xl font-bold text-indigo-500 mb-6">Contact Me</h2>
+<p class="text-lg">
+<strong class="text-indigo-400">Email:</strong> <a class="hover:underline" href="mailto:aryans199919.a@gmail.com">aryans199919.a@gmail.com</a>
+</p>
+<p class="text-lg">
+<strong class="text-indigo-400">Phone:</strong> <a class="hover:underline" href="tel:+918910965414">+91 8910965414</a>
+</p>
+<p class="text-lg">
+<strong class="text-indigo-400">Location:</strong> Pune, India
+        </p>
+<p class="text-lg">
+<strong class="text-indigo-400">LinkedIn:</strong> <a class="hover:underline" href="https://www.linkedin.com/in/aryansingh1999/" rel="noopener" target="_blank">Linkedin Profile</a>
+</p>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-900 border-t border-gray-700 text-center py-6 mt-20 px-4">
+<p class="text-gray-400 text-sm">© 2025 Aryan Singh. All rights reserved.</p>
+</footer>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+
+  var typed = new Typed("#typed-text", {
+    strings: ["Web Developer.", "Laravel Enthusiast.", "WordPress Expert."],
+    typeSpeed: 50,
+    backSpeed: 25,
+    loop: true
+  });
+
+  // Toggle mobile menu
+  document.getElementById("menu-btn").addEventListener("click", () => {
+    const menu = document.getElementById("mobile-menu");
+    menu.classList.toggle("hidden");
+  });
+</script>
+
+<div style="margin-top: 20px;">
+  <a href="assets/resume/Aryan Singh PHP.pdf" download class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">
+    Download Resume
+  </a>
+</div>
+
+</body>
+</html>
